@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body,
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+body {
+  font: 1.6rem sans-serif, inherit;
+  padding: 2rem;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+header {
+  h1 {
+    text-align: center;
+    line-height: 6.0rem;
+    font-size: 2.5rem;
+  }
+}
+.mermaid {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  img {
+    vertical-align: middle;
+    min-height: 2rem;
+  }
+}
